@@ -10,4 +10,8 @@ public class MathBeanTest {
         int value = math.plus(200, 300);
         System.out.println(value);
     }
+
+    public static void printVersion() {
+        System.out.println("v1.0");
+    }
 }
